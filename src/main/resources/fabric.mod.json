@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "minesharesiorandom",
+  "version": "${version}",
+  "name": "Minesharesio Random",
+  "description": "Adds the Cragbeast, its hatchable egg, and a spawn egg to Minecraft.",
+  "icon": "assets/minesharesiorandom/textures/item/cragbeast_spawn_egg.png",
+  "authors": [
+    "Minesharesio"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.minesharesiorandom.MinesharesioRandom"
+    ],
+    "client": [
+      "com.minesharesiorandom.client.MinesharesioRandomClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "geckolib": ">=4.4.9"
+  }
+}

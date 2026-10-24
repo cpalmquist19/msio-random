@@ -1,0 +1,50 @@
+# Gradle
+.gradle/
+build/
+
+# Fabric Loom dev environment (runClient/runServer working dir)
+run/
+run-*/
+out/
+
+# Compiled output
+bin/
+*.class
+
+# Packaged artifacts (release jars are published via CurseForge, not committed)
+*.jar
+*.war
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs and crash reports
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDE: IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IDE: Eclipse
+.classpath
+.project
+.settings/
+
+# IDE: VS Code (keep shared settings, ignore the rest)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Local configuration and secrets
+local.properties
+.env
+*.env
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
